@@ -1,0 +1,31 @@
+.wrapper {
+    @apply container mx-auto px-5
+}
+
+.nav-link {
+    @apply mr-6
+}
+
+.btn {
+    @apply px-6 py-2 text-xl transition duration-300 ease-linear
+}
+
+.btn-primary {
+    @apply bg-teal-600 text-white
+}
+
+.btn-primary:hover {
+    @apply bg-teal-500
+}
+
+.btn-outline-primary {
+    @apply bg-white text-teal-500 border border-teal-500
+}
+
+.btn-outline-primary:hover {
+    @apply bg-teal-500 text-white border border-teal-500
+}
+
+.form-control {
+    @apply w-full p-2 border mb-4 mt-2
+}
